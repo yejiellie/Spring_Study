@@ -1,10 +1,12 @@
 package com.study.spring.learnspringframework.game;
 
+import com.study.spring.learnspringframework.GamingConsole;
+
 public class GameRunner {
 	
-	private SuperContraGame game;
+	private GamingConsole game;
 	
-	public GameRunner(SuperContraGame game) {
+	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 
